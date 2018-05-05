@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ICApp</string>
+    <string name="head">Welcome To Investment Club (IC) App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="note">Note: For someone to be your guarantor, he/she has to be aware. When you select his/her name,
+        a notification will be sent to the Guarantor's page. The guarantor's name will not appear on the list of guarantors
+        not until he/she allows you</string>
+
+</resources>
