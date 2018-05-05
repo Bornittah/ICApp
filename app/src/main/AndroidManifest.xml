@@ -9,14 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.bornittah.icapp.LoginActivity">
+        <activity android:name=".activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainPageActivity"></activity>
+        <activity
+            android:name=".activities.MainPageActivity"
+            android:label="@string/main_page" />
+        <activity
+            android:name=".activities.SavingActivity"
+            android:label="@string/saving" />
+        <activity
+            android:name=".activities.SignupActivity"
+            android:label="@string/title_activity_signup"
+           />
     </application>
 
 </manifest>

@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.bornittah.icapp.MainActivity">
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context="com.example.bornittah.icapp.activities.LoginActivity">
+
 
     <TextView
         android:layout_width="match_parent"
@@ -16,31 +19,55 @@
         android:text="@string/head"
         android:id="@+id/textView" />
 
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30sp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+
+            android:hint="please enter Username" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPassword"
+            android:layout_marginTop="62dp"
+            android:hint="Enter password" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_marginTop="30sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="152dp"
+
         android:text="Log in" />
-
-    <AutoCompleteTextView
-        android:id="@+id/autoCompleteTextView"
-        android:layout_width="wrap_content"
+    
+    <TextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="19dp"
-        android:text="please enter account number" />
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="40dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:id="@+id/text_create"
+        android:text="Donot Have Account? Create One"/>
 
-    <AutoCompleteTextView
-        android:id="@+id/autoCompleteTextView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/autoCompleteTextView"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:text="Enter password" />
-
-</RelativeLayout>
+</LinearLayout>

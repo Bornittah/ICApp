@@ -7,5 +7,19 @@
     <string name="note">Note: For someone to be your guarantor, he/she has to be aware. When you select his/her name,
         a notification will be sent to the Guarantor's page. The guarantor's name will not appear on the list of guarantors
         not until he/she allows you</string>
+    <string name="main_page">Main Menu</string>
+    <string name="saving">Savings</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="create_account">Create Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="submit_details">Submit Details</string>
+    <string name="account_number">Account Number</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="amount_in_words">Amount in words</string>
+    <string name="start_date">Start Date</string>
+    <string name="return_date">Return Date</string>
 
 </resources>
